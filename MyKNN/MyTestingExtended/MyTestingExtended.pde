@@ -33,13 +33,13 @@ public String[] globalUniqueLabels = null;
 void setup() {
   size(1000,1000);
 
-  table = loadTable("iris.csv", "header"); //copies iris.csv to table
+  table = loadTable("biopsies.csv", "header"); //copies iris.csv to table
   
   stage = 1;
   
-  String target_feature = "species"; //input for target feature, used for vertical split
-  String visualFeatureX = "sepal_length";
-  String visualFeatureY = "sepal_width";
+  String target_feature = "diagnosis"; //input for target feature, used for vertical split
+  String visualFeatureX = "radius_mean";
+  String visualFeatureY = "area_mean";
   
   visualFeatureXglobal = visualFeatureX;
   visualFeatureYglobal = visualFeatureY;

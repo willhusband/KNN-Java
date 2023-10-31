@@ -96,11 +96,11 @@ void stage1(dataPoint[] trainDataPoints) { //stage 1 just shows the labelled tra
     fill(trainDataPoints[i].colour);
     circle(trainDataPoints[i].x, trainDataPoints[i].y, 10);
   }
-  fill(255);
-  rect(50,100,750,75);
-  textSize(15);
-  fill(0);
-  text("this is our training data. As you can see, we already know the class of each data point. Usually we take around 75% of our dataset as training data, and the remaining 25% as testing data (press any key to continue)", 50, 100, 750, 75);
+  //fill(255);
+  //rect(50,100,750,75);
+  //textSize(15);
+  //fill(0);
+  //text("this is our training data. As you can see, we already know the class of each data point. Usually we take around 75% of our dataset as training data, and the remaining 25% as testing data (press any key to continue)", 50, 100, 750, 75);
 }
 
 void stage2(dataPoint[] testDataPoints) {
